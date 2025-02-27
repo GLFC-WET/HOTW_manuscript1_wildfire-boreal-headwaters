@@ -1,0 +1,31 @@
+##### Information on files withing /Manuscript1 #####
+# ftms_process.r
+  ## R script for processing ICMB Ocean output and calculating key metrics
+  ## Contains some figures
+  ## hotw_edata.csv
+    ### The matrix of sample names and relative intensities of masses
+  ## hotw_emeta.csv
+    ### Meta data of molecular fomulae found in samples
+  ## hotw_fdata.csv
+    ### Meta data on samples including factors like sampling trip and burned or unburned
+
+# chem.r
+  ## R script with main statistical analysis, linear models, and graphing for manuscript visuals
+
+# extra_analysis.r
+  ## R script with extra statistical analysis to describe data broadly and other figures
+
+# transformations.r
+  ## R script for calculating putative biochemical transformations of sample DOM
+  ## Needs the following .rds as a reference list
+  ## Putative_Trannsform_Matrix_List_i.rds
+
+# Datasets on DOM samples from ICBM Ocean
+  ## ftms3.csv
+  ## mfs.csv
+
+# Datasets on general site data
+  ## water.csv
+  ## watersheds_characterized.csv
+  ## watersheds_characterized1.csv
+  ## Note: there are multiple because some version control over the two years of collecting data resulted in different copies of .csv files. Scripts are updated to use the apropriate file for the apropriate analysis and merge files when needed.
