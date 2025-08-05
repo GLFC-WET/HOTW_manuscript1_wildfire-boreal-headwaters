@@ -63,14 +63,7 @@ Metrics were calculated with the staRdom package
 - S275_295 : Ratio used for calculation of SR
 - S300_400 : Ratio used for calculation of SR
 - SR : Spectral Slope Ratio (S275_295:S350_400) as in Helms et al. (2008)
-- Comp.1 to Comp.7 : Components from the internal Watershed Ecology Parafac model.
-        Components relate to: •	C1: Humic A+M
-        + C2: Humic A+C
-        + C3: Humic
-        + C4: Humic A
-        + C5: Protein (TRP)
-        + C6: Protein (TYR)
-        + C7: Microbial Humic
+- Comp.1 to Comp.7 : Components from the internal Watershed Ecology Parafac model. Components relate to: C1: Humic A+M, C2: Humic A+C, C3: Humic, C4: Humic A, C5: Protein (TRP), C6: Protein (TYR), C7: Microbial Humic
 - SUVA: the absorption of light at 254 nm per unit of carbon, has been shown to be a useful proxy for DOM aromatic content
 ##### Variables collected in the field using a YSI
 - temp : temperature in Celcius
@@ -100,4 +93,5 @@ Metrics were calculated with the staRdom package
   
 ### watersheds_characterized.csv
 ### watersheds_characterized1.csv 
+
 
