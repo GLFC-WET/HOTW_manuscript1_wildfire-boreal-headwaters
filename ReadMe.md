@@ -42,8 +42,8 @@ Includes the following variables:
 - burn_sd : standard deviation of  watershed areas of the Red Lake 2021 fire disturbance extracted from Google Earth Engine with the google earth engine script created by Holsinger et al, 2021. Improved fire severity mapping in the North American boreal forest using a hybrid composite method. - Original script : https://code.earthengine.google.com/9d63e1928205e238a5d49d6d9af1d1a7
 - year : year of collection
 - area : watershed area in ha
-- slope : ERIN TO FILL
-- prop_wet_area  : ERIN TO FILL
+- slope : The difference between the highest and lowest elevation in a catchment as a percent
+- prop_wet_area  : The proportion of area in each catchment that is wetland calculated from the OMNRF dataset freely available at: https://geohub.lio.gov.on.ca/datasets/mnrf::wetlands/about
 - hw_burn_mean_haifls : stream Hydroweighted watershed areas of the Red Lake 2021 fire disturbance extracted from Google Earth Engine with the google earth engine script created by Holsinger et al, 2021. Improved fire severity mapping in the North American boreal forest using a hybrid composite method. - Original script : https://code.earthengine.google.com/9d63e1928205e238a5d49d6d9af1d1a7
 #### Watershed Ecology Team variables
 ##### TOC-L
@@ -93,5 +93,6 @@ Metrics were calculated with the staRdom package
   
 ### watersheds_characterized.csv
 ### watersheds_characterized1.csv 
+
 
 
