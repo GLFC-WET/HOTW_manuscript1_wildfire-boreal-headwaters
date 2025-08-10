@@ -94,19 +94,20 @@ Metrics were calculated with the staRdom package
 ### watersheds_characterized.csv
 Includes the following variables:
 #### Sample information
-- sample_id : unique identifier for each sample
 - watershed : unique watershed ID
 - duplicate : yes/no value
+- sample_id : unique identifier for each sample
+- ftms_name : auto generated unique identifier from FTMS software that relates to crosstab data
 - treatment : control or burn
-- trip : month of trip as text
 - date : date in mm/dd/yyyy format
+- trip : month of trip as text
 - burn_mean : mean watershed areas of the Red Lake 2021 fire disturbance extracted from Google Earth Engine with the google earth engine script created by Holsinger et al, 2021. Improved fire severity mapping in the North American boreal forest using a hybrid composite method. - Original script : https://code.earthengine.google.com/9d63e1928205e238a5d49d6d9af1d1a7
 - burn_sd : standard deviation of  watershed areas of the Red Lake 2021 fire disturbance extracted from Google Earth Engine with the google earth engine script created by Holsinger et al, 2021. Improved fire severity mapping in the North American boreal forest using a hybrid composite method. - Original script : https://code.earthengine.google.com/9d63e1928205e238a5d49d6d9af1d1a7
 - year : year of collection
 - area : watershed area in ha
 - slope : The difference between the highest and lowest elevation in a catchment as a percent
 - prop_wet_area  : The proportion of area in each catchment that is wetland calculated from the OMNRF dataset freely available at: https://geohub.lio.gov.on.ca/datasets/mnrf::wetlands/about
-- hw_burn_mean_haifls : stream Hydroweighted watershed areas of the Red Lake 2021 fire disturbance extracted from Google Earth Engine with the google earth engine script created by Holsinger et al, 2021. Improved fire severity mapping in the North American boreal forest using a hybrid composite method. - Original script : https://code.earthengine.google.com/9d63e1928205e238a5d49d6d9af1d1a7
+- hw_burn_mean_haifls & hw_burn_mean_ifls : stream Hydroweighted watershed areas of the Red Lake 2021 fire disturbance extracted from Google Earth Engine with the google earth engine script created by Holsinger et al, 2021. Improved fire severity mapping in the North American boreal forest using a hybrid composite method. - Original script : https://code.earthengine.google.com/9d63e1928205e238a5d49d6d9af1d1a7
 #### Watershed Ecology Team variables
 ##### TOC-L
 Data collected from the TOC-L in the Watershed Ecology lab at GLFC
@@ -214,6 +215,3 @@ Metrics were calculated with the staRdom package
 - o.c.wtavg : Oxygen to carbon ratio as a weighted average
 - transformations : Count of putative biochemical transformations
 - bc : Percent relative abundance of dissolved black carbon based on an AImod of 0.66 or higher.
-
-
-
